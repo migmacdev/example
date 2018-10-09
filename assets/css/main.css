@@ -1,0 +1,92 @@
+.mbr-section-title.display-1{
+	color: #3d0000;
+}
+
+.card.cart-block{
+}
+
+.card.inf-extra{
+	background: #3d0000;
+	color: #fff;
+	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	opacity: 0;
+  	display: hidden;
+  	-webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.card-block a{
+	font-family: 'Lora';
+	font-style: italic;
+	color: #AA0000;
+	z-index:1;
+	position: relative;
+
+}
+
+card-block a.a-btn:hover{
+	cursor: pointer;
+}
+
+.card.inf-extra.visible-info{
+	opacity: 0.99;
+	z-index: 2;
+}
+
+
+
+#features2-0 .container{
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 60px;
+}
+
+#features2-0 ul.pad{
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+}
+#features2-0 ul.inf-extra{
+	padding-top: 170px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+}
+
+#features2-0 button{
+	margin-top: 20px;
+	align-self: bottom;
+	padding: 5px 5px 5px 5px;
+}
+
+
+ul.inf-extra li,
+ul.pad li{
+	padding-top: 15px;
+	font-size: 8;
+	font-family: 'Lato', serif;
+	font-weight: 100;
+	text-align: left;
+}
+
+#form1-0 .mbr-section-title,
+#testimonials1-0 .mbr-section-title{
+	color: #fff;
+}
+#header1-0{
+	background-size: auto;
+}
+
+.mbr-author-name{
+	font-size: 18px;
+}
+.mbr-author-desc{
+	font-size: 16px;
+}
